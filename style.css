@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
+img{
+    width:500px;}
+.box {
+    position:absolute;
+    width: 281px; 
+    height: 416px;  
+    border: solid 20px #000;
+    border-color: #000 ;
+   top: 38px;
+   left: 500px;
+  }
+  .lado_1{
+    width: 73px; 
+    height: 260px;  
+    background: black;
+    position: absolute;
+    top: 120px;
+    left: 585px;   
+  }
+  .lado_2{
+    width: 73px; 
+    height: 260px;  
+    background: black;
+    position: absolute;
+    top: 120px;
+    left: 671px;   
+  }
+  /*==== SOMBRA DA PARTE DE CIMA ====*/
+  .sombra1_01{
+    width: 95px; 
+    height: 60px;  
+    background: white;
+    position: absolute;
+    top: 97px;
+    left: 593px;   
+    transform: rotate(40deg);
+  }
+  .sombra1_02{
+    width: 95px; 
+    height: 60px;  
+    background: white;
+    position: absolute;
+    top: 97px;
+    left: 641px;   
+    transform: rotate(-40deg);
+  }
+
+  /*==== SOMBRA DA PARTE DE BAIXO ====*/
+  .sombra2_01{
+    width: 95px; 
+    height: 60px;  
+    background: white;
+    position: absolute;
+    top: 342px;
+    left: 593px;   
+    transform: rotate(-40deg);
+  }
+  .sombra2_02{
+    width: 95px; 
+    height: 60px;  
+    background: white;
+    position: absolute;
+    top: 342px;
+    left: 641px;   
+    transform: rotate(40deg);
+  }
+  p{
+      top: 250px;
+      left: 58px;
+      letter-spacing:22px;
+    position: absolute;
+    font-family: 'Quantico', sans-serif;
+    font-weight:bold;
+    font-size: 70px;
+  }
